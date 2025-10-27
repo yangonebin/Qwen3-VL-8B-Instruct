@@ -24,7 +24,7 @@
 
 Public Score
 
-$\text{0.76028}$
+$0.76028$
 
 $\mathbf{0.93672}$
 
@@ -52,9 +52,9 @@ $\mathbf{17.64\%p}$
 
 1. 모델 아키텍처
 
-$\text{Qwen2.5-VL-3B}$의 $\text{VQA}$ 복잡성 처리 능력 부족
+Qwen2.5-VL-3B의 VQA 복잡성 처리 능력 부족
 
-**$\mathbf{Qwen3-VL-8B}$**로 모델 교체 및 $\text{AutoModelForImageTextToText}$ 로딩
+Qwen3-VL-8B로 모델 교체 및 AutoModelForImageTextToText 로딩
 
 모델의 표현력 및 추론 정확도 확장
 
@@ -68,11 +68,11 @@ $\text{Qwen2.5-VL-3B}$의 $\text{VQA}$ 복잡성 처리 능력 부족
 
 3. 학습 안정화
 
-기본적인 $\text{Fine-tuning}$ 설정
+기본적인 Fine-tuning 설정
 
-$\text{Warmup}$ 및 $\text{Weight Decay}$ 재설정을 통한 학습 파이프라인 안정화
+Warmup 및 Weight Decay 재설정을 통한 학습 파이프라인 안정화
 
-초기 $\text{Loss}$ 수렴 가속화 및 과적합 제어
+초기 Loss 수렴 가속화 및 과적합 제어
 
 ⚙️ 기술 스택 (Technical Stack)
 
